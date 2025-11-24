@@ -1,0 +1,1 @@
+pyinstaller --onefile bloodhound.py --name bloodhound --hidden-import impacket --hidden-import dnspython --hidden-import pyasn1 --hidden-import ldap3 --hidden-import pycryptodome -y
